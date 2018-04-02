@@ -1,0 +1,10 @@
+@font-face {  
+    font-family:'Minecraftia';  
+    src:url('http://mczyp.pe.hu/1/Minecraftia.ttf') format('truetype');  
+    font-weight: normal;  
+    font-style: normal;
+  }
+#cs
+  {font-size:200px; text-align:center; font-family:"Minecraftia";}
+h1
+{font-size:60px; text-align:center; font-family:"黑体";} 
