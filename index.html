@@ -1,11 +1,193 @@
-<link rel="stylesheet" type="text/css" href="https://sathishkumar-manogaran.github.io/a.css" /> 
-<p id=cs>hello welcome</p>
-<body> 
-<h1>don't leave</h1></center>
-<h1>please wait for one second</h1>
-</body> 
-  <html>
-      <script language=javascript>
-          setTimeout('window.location="https://github.com/sathishkumar-manogaran"',100)
-      </script>
+
+<html lang="en">
+
+<head>
+    <title>Satz Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <style>
+        h3,
+        p {
+            font-family: Raleway;
+        }
+
+        .container-fluid {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+
+        img {
+            max-width: 90%;
+            object-fit: scale-down;
+        }
+
+        #imageWidthValue {
+            width: 60%;
+        }
+
+        #findMe,
+        #homeTag,
+        #imageId,
+        #job {
+            background-color: #99ccff;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="navbar navbar-inverse navbar-fixed-top navbar-expand-lg navbar-dark bg-info">
+            <a class="navbar-brand mr-0 mr-md-2" href="#homeTag"><img class="rounded float-right mx-auto d-block" style="width:50px" src="../Satz.jpg"></a>
+            <div class="navbar-header text-center navbar-brand mr-0 mr-md-2">
+                <p><a>Sathishkumar Manogaran</a></p>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria- controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#homeTag"> Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#job"> Job</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#findMe"> Find Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#emailModel">Email Me</button>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="container-fluid" id="homeTag">
+            <div class="row">
+                <div class="col-sm-6" id="homeImageFeature">
+                    <img src="https://raw.githubusercontent.com/sathishkumar-manogaran/portfolio-page/master/Satz_Home_Photo.JPG" alt="Satz Home Photo">
+                </div>
+                <div class="col-sm-6">
+                    <h3 class="font-weight-bold">Call Me Satz!!</h3>
+                    <p class="lead">
+                        <ul>
+                            <li>Experienced Web Developer with a demonstrated history of working in the Information Technology, Services Industry and Digital Transformation.</li>
+                            <li>Skilled in Java, Spring Framework, SQL, Oracle Database, Requirements Analysis and Agile Methodologies.</li>
+                            <li>Strong engineering professional with a Master of Scienece (M.S) focused in Sofrware Engineering from BITS Pilani</li>
+                            <li>Bachelor of Science (B.Sc.) focused in Electronics and Communication Science from University Of Madras.</li>
+                            <li>Currently Located in Chennai, India</li>
+                            <li>Learning Front End Technologies like</li>
+                            <ol>
+                                <li>HTML</li>
+                                <li>Bootstrap</li>
+                                <li>Angular</li>
+                                <li>React</li>
+                                <li>NodeJs</li>
+                            </ol>
+                        </ul>
+                </div>
+
+                <!-- end col -->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="emailModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Just Notify Me!!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <form>
+                            <div class="form-group">
+                                <label class="sr-only" for="subscribe-name">Your Full Name</label>
+                                <input type="text" class="form-control" id="subscribe-name" placeholder="Your first name">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="subscribe-email">And Your Email ID</label>
+                                <input type="text" class="form-control" id="subscribe-email" placeholder="and your email">
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <a href="#"><button type="button" class="btn btn-primary">Submit</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+
+        <div class="container-fluid text-center img-thumbnail" id="job">
+            <h3 class="font-weight-bold">My All Jobs</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h5>Wipro Technologies Ltd, Chennai</h5>
+                    <hr>
+                    <p>From 2012 to 2017 worked as Senior Project Engineer</p>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Renault Digital, Chennai</h5>
+                    <hr>
+                    <p>From 2017 onwards working as Senior Project Engineer</p>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Traveler & Tourer</h5>
+                    <hr>
+                    <p>This is my Hobby not related to my Job :)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-center" id="findMe">
+            <h3 class="font-weight-bold">Where To Find Me?</h3>
+            <div class="row">
+                <div class="col-sm-3 img-thumbnail" id="imageId">
+                    <a href="https://www.facebook.com/sathishkumar.manogaran1" target="_blank"><img id="imageWidthValue" class="img-responsive" style="display:inline" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" alt="Facebook Image"></a>
+                </div>
+                <div class="col-sm-3 img-thumbnail" id="imageId">
+                    <a href="https://twitter.com/iam_satz_mano" target="_blank"><img id="imageWidthValue" class="img-responsive" style="display:inline" src="https://www.seeklogo.net/wp-content/uploads/2015/11/twitter-logo.png" alt="Image"></a>
+                </div>
+                <div class="col-sm-3 img-thumbnail" id="imageId">
+                    <a href="https://github.com/sathishkumar-manogaran" target="_blank"><img id="imageWidthValue" class="img-responsive" style="display:inline" src="http://blog.incipio.com/wp-content/uploads/2015/01/best-resources-for-github.png" alt="Image"></a>
+                </div>
+                <div class="col-sm-3 img-thumbnail" id="imageId">
+                    <a href="https://www.linkedin.com/in/sathishkumar-manogaran/" target="_blank"><img id="imageWidthValue" class="img-responsive" style="display:inline" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/2000px-Linkedin.svg.png" alt="Image"></a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-center bg-info">
+            <p style="color:white"><em>Portfolio Made By <a href="https://www.facebook.com/sathishkumar.manogaran1" target="_blank">Satz</a></em></p>
+        </footer>
+    </div>
+
+</body>
+
 </html>
